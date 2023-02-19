@@ -3572,15 +3572,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ts-morph/common@npm:~0.10.1":
-  version: 0.10.1
-  resolution: "@ts-morph/common@npm:0.10.1"
+"@ts-morph/common@npm:~0.12.3":
+  version: 0.12.3
+  resolution: "@ts-morph/common@npm:0.12.3"
   dependencies:
-    fast-glob: ^3.2.5
+    fast-glob: ^3.2.7
     minimatch: ^3.0.4
     mkdirp: ^1.0.4
     path-browserify: ^1.0.1
-  checksum: 24c8185a2c165d18d683dd822ee2e2070f325e328f87281ff3bc53e555aabf331bb5498ff89e3d1364e462f2b4be237442c38e2920d1ecb7438f4e2f30804e63
+  checksum: d96ea9805d4f0300cc05c47daa9454438903b86ffb7116f5181a1eba71e881012a1adc2a867b3afbe4429ef29e3e0d6204175cbaf33ecdd7a7d09b5d8a37f12d
   languageName: node
   linkType: hard
 
@@ -7113,10 +7113,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"code-block-writer@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "code-block-writer@npm:10.1.1"
-  checksum: e048037acbcbda19fca62a3a63e4a64226ea6b5dc0fad7632d34a88c1165b29a357e5e19f0497811e9911472e824ab85f68176f40e439da87e051908956eb47c
+"code-block-writer@npm:^11.0.0":
+  version: 11.0.3
+  resolution: "code-block-writer@npm:11.0.3"
+  checksum: f0a2605f19963d7087267c9b0fd0b05a6638a50e7b29b70f97aa01a514f59475b0626f8aa092188df853ee6d96745426dfa132d6a677795df462c6ce32c21639
   languageName: node
   linkType: hard
 
@@ -10265,6 +10265,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-glob@npm:^3.2.7":
+  version: 3.2.12
+  resolution: "fast-glob@npm:3.2.12"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.4
+  checksum: 0b1990f6ce831c7e28c4d505edcdaad8e27e88ab9fa65eedadb730438cfc7cde4910d6c975d6b7b8dc8a73da4773702ebcfcd6e3518e73938bb1383badfe01c2
+  languageName: node
+  linkType: hard
+
 "fast-json-stable-stringify@npm:2.x, fast-json-stable-stringify@npm:^2.0.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
@@ -11648,7 +11661,7 @@ __metadata:
     stylelint-prettier: ^1.2.0
     ts-jest: ^27.0.7
     ts-node: ^10.4.0
-    ts-prune: ^0.10.1
+    ts-prune: ^0.10.3
     typescript: ^4.4.4
     write-good: ^1.0.8
   languageName: unknown
@@ -11786,7 +11799,7 @@ __metadata:
     stylelint-prettier: ^1.2.0
     ts-jest: ^27.0.7
     ts-node: ^10.4.0
-    ts-prune: ^0.10.1
+    ts-prune: ^0.10.3
     typescript: ^4.4.4
     write-good: ^1.0.8
     xml2js: ^0.4.23
@@ -11907,7 +11920,7 @@ __metadata:
     stylelint-prettier: ^1.2.0
     ts-jest: ^27.0.7
     ts-node: ^10.4.0
-    ts-prune: ^0.10.1
+    ts-prune: ^0.10.3
     typescript: ^4.4.4
     url-join: ^4.0.1
     write-good: ^1.0.8
@@ -25440,13 +25453,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-morph@npm:^11.0.2":
-  version: 11.0.3
-  resolution: "ts-morph@npm:11.0.3"
+"ts-morph@npm:^13.0.1":
+  version: 13.0.3
+  resolution: "ts-morph@npm:13.0.3"
   dependencies:
-    "@ts-morph/common": ~0.10.1
-    code-block-writer: ^10.1.1
-  checksum: a59c17c317d8b26fd41d1933667e0deb058d04ad2c48b16afc261817f372d18c0fefe994788c243eeaa91bca782e4f1d6baaaf833c29cb7eaa55e616c9ae77cd
+    "@ts-morph/common": ~0.12.3
+    code-block-writer: ^11.0.0
+  checksum: 0983a7c4e0e1063e3900186bf2e85c5080621e31b754434136d2130a82bda6556985fdf012b766a87b9ae47d6f63732a562bb80854c34644f9352bea9a35b8ee
   languageName: node
   linkType: hard
 
@@ -25507,19 +25520,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-prune@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "ts-prune@npm:0.10.1"
+"ts-prune@npm:^0.10.3":
+  version: 0.10.3
+  resolution: "ts-prune@npm:0.10.3"
   dependencies:
     commander: ^6.2.1
     cosmiconfig: ^7.0.1
     json5: ^2.1.3
     lodash: ^4.17.21
     true-myth: ^4.1.0
-    ts-morph: ^11.0.2
+    ts-morph: ^13.0.1
   bin:
     ts-prune: lib/index.js
-  checksum: 9d34cfa93120a46143c71465a32074423debc2db45dd084691ac986f883bce9af38916081cbca96797d7b96f587cd3f25408646fde5321cc57f78f862e8411f1
+  checksum: 2cbc4d64a2e50637d06691e7f962b913d87aba2419ba772a3a1cb6e4b7542412cd77af592ba7b376ed273f5e37d9be180613b479602b9f92693e4d72f0f5a373
   languageName: node
   linkType: hard
 
